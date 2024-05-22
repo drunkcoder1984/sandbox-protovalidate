@@ -8,6 +8,7 @@
 - [buf](https://buf.build/docs/introduction) 1.32.0
 - [protovalidate](https://github.com/bufbuild/protovalidate) v0.6.4
 - [protovalidate-go](https://github.com/bufbuild/protovalidate-go) v0.6.2
+- OrbStack 1.6.0-rc2 (docker)
 
 ## インストール
 ### buf
