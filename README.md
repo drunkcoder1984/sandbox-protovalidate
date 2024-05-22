@@ -14,7 +14,3 @@
 ```
 brew install buf
 ```
-### protovalidate-go
-```
-go get github.com/bufbuild/protovalidate-go
-```
