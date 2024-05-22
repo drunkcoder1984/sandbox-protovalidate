@@ -3,7 +3,7 @@ protovalidateのREADME.mdがv1のconfig使ってるのでv1を使った実装
 - [protovalidate](https://github.com/bufbuild/protovalidate/blob/v0.6.4/README.md)
 - [protovalidate-go](https://github.com/bufbuild/protovalidate-go/blob/v0.6.2/README.md)
 
-main.goでは簡単なvalidateを行いUser.Nameが５文字以上かどうか検証しています
+main.goでは簡単なvalidateを行いUser.Nameが５文字以上かどうか検証
 
 ## ディレクトリ構成
 ```
@@ -26,8 +26,9 @@ go get github.com/bufbuild/protovalidate-go
 ```
 buf dep update
 ```
-公式の手順だと`buf mod update`を使用してるが非推奨とのことなので`buf dep update`を使用する
+公式の手順だと`buf mod update`を使用してるが非推奨とのことなので`buf dep update`を使用
 ### protoのgoファイルの生成
 ```
 buf generate
 ```
+コマンドを実行すると`gen/go`に`proto/user/user.pb.go`が生成
