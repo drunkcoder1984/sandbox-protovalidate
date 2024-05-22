@@ -1,0 +1,8 @@
+services:
+  proto:
+    image: bufbuild/buf
+    command: ["generate"]
+    volumes:
+      - ./:/proto
+    working_dir: /proto
+
