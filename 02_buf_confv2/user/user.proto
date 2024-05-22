@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package user;
+
+import "buf/validate/validate.proto";
+
+message User {
+  string name = 1 [(buf.validate.field).string.min_len = 5];
+}
+
