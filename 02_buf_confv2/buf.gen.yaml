@@ -6,11 +6,9 @@ managed:
       module: buf.build/bufbuild/protovalidate
   override:
     - file_option: go_package_prefix
-      value: ../
+      value: .
 plugins:
   - remote: buf.build/protocolbuffers/go
     out: gen/go
     opt: paths=source_relative
-  - remote: buf.build/grpc/go
-    out: gen/go
-    opt: paths=source_relative
+
